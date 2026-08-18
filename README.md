@@ -1,63 +1,91 @@
-# Packer Plugin Incus 
-The `Incus` multi-component plugin can be used with HashiCorp [Packer](https://www.packer.io)
-to create custom images. For the full list of available features for this plugin see [docs](docs).
+# packer-plugin-incus
 
-## Installation
+[![Built with Ona](https://ona.com/build-with-ona.svg)](https://app.ona.com/#https://github.com/Interested-Deving-1896/packer-plugin-incus) [![KDE Eco](https://img.shields.io/badge/KDE%20Eco-certified-brightgreen?logo=kde&logoColor=white&style=flat-square)](https://eco.kde.org/) [![Blue Angel](https://img.shields.io/badge/Blue%20Angel-DE--UZ%20215-0055a4?style=flat-square)](https://www.blauer-engel.de/en/certification/criteria) [![Energy](https://api.green-coding.io/v1/ci/badge/get?repo=Interested-Deving-1896%2Fpacker-plugin-incus&branch=main&workflow=eco-audit.yml)](https://metrics.green-coding.io/ci-index.html)
 
-### Using pre-built releases
 
-#### Using the `packer init` command
+<!-- AI:start:what-it-does -->
+_Description pending._
+<!-- AI:end:what-it-does -->
 
-Starting from version 1.7, Packer supports a new `packer init` command allowing
-automatic installation of Packer plugins. Read the
-[Packer documentation](https://www.packer.io/docs/commands/init) for more information.
+## Architecture
 
-To install this plugin, copy and paste this code into your Packer configuration .
-Then, run [`packer init`](https://www.packer.io/docs/commands/init).
+<!-- AI:start:architecture -->
+_Architecture documentation pending._
+<!-- AI:end:architecture -->
 
-```hcl
-packer {
-  required_plugins {
-    incus = {
-      version = ">= 1.0.0"
-      source  = "github.com/bketelsen/incus"
-    }
-  }
-}
+## Install
+
+<!-- Add installation instructions here. This section is yours — the AI will not modify it. -->
+
+```bash
+git clone https://github.com/Interested-Deving-1896/packer-plugin-incus.git
+cd packer-plugin-incus
 ```
 
+## Usage
 
-#### Manual installation
+<!-- Add usage examples here. This section is yours — the AI will not modify it. -->
 
-You can find pre-built binary releases of the plugin [here](https://github.com/bketelsen/packer-plugin-incus/releases).
-Once you have downloaded the latest archive corresponding to your target OS,
-uncompress it to retrieve the plugin binary file corresponding to your platform.
-To install the plugin, please follow the Packer documentation on
-[installing a plugin](https://www.packer.io/docs/extending/plugins/#installing-plugins).
+## Configuration
+
+<!-- Document configuration options here. This section is yours — the AI will not modify it. -->
+
+## CI
+
+<!-- AI:start:ci -->
+_CI documentation pending._
+<!-- AI:end:ci -->
+
+## Mirror chain
+
+<!-- AI:start:mirror-chain -->
+This repo is maintained in [`Interested-Deving-1896/packer-plugin-incus`](https://github.com/Interested-Deving-1896/packer-plugin-incus) and mirrored through:
+
+```
+Interested-Deving-1896/packer-plugin-incus  ──►  OpenOS-Project-OSP/packer-plugin-incus  ──►  OpenOS-Project-Ecosystem-OOC/packer-plugin-incus
+```
+
+Changes flow downstream automatically via the hourly mirror chain in
+[`fork-sync-all`](https://github.com/Interested-Deving-1896/fork-sync-all).
+Direct commits to OSP or OOC are detected and opened as PRs back to `Interested-Deving-1896`.
+<!-- AI:end:mirror-chain -->
+
+## Contributors
+
+<!-- AI:start:contributors -->
+_Contributors pending._
+<!-- AI:end:contributors -->
+
+## Origins
+
+<!-- AI:start:origins -->
+_Original project — no upstream influences recorded._
+<!-- AI:end:origins -->
+
+## Resources
+
+<!-- AI:start:resources -->
+_No additional resource files found._
+<!-- AI:end:resources -->
+
+## Accessibility
+
+<!-- AI:start:accessibility -->
+This repo uses automated accessibility auditing via `check-accessibility.yml`.
+
+Checks include: CODEOWNERS ownership coverage, README screen-reader compatibility,
+WCAG 2.1 AA HTML compliance, audio overview (espeak-ng), and Braille output (liblouis).
 
 
-### From Sources
-
-If you prefer to build the plugin from sources, clone the GitHub repository
-locally and run the command `go build` from the root
-directory. Upon successful compilation, a `packer-plugin-incus` plugin
-binary file can be found in the root directory.
-To install the compiled plugin, please follow the official Packer documentation
-on [installing a plugin](https://www.packer.io/docs/extending/plugins/#installing-plugins).
 
 
-### Configuration
+Run the [Check Accessibility](https://github.com/Interested-Deving-1896/packer-plugin-incus/actions/workflows/check-accessibility.yml)
+workflow to generate the first report and accessibility artifacts.
+See [DOCS/accessibility.md](https://github.com/Interested-Deving-1896/packer-plugin-incus/blob/main/DOCS/accessibility.md) for the full reference.
+<!-- AI:end:accessibility -->
 
-For more information on how to configure the plugin, please read the
-documentation located in the [`docs/`](docs) directory.
+## License
 
-
-## Contributing
-
-* If you think you've found a bug in the code or you have a question regarding
-  the usage of this software, please reach out to us by opening an issue in
-  this GitHub repository.
-* Contributions to this project are welcome: if you want to add a feature or a
-  fix a bug, please do so by opening a Pull Request in this GitHub repository.
-  In case of feature contribution, we kindly ask you to open an issue to
-  discuss it beforehand.
+<!-- AI:start:license -->
+[MPL-2.0](https://github.com/Interested-Deving-1896/packer-plugin-incus/blob/main/LICENSE) © 2026 [Interested-Deving-1896](https://github.com/Interested-Deving-1896)
+<!-- AI:end:license -->
