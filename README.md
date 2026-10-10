@@ -66,8 +66,8 @@ Direct commits to OSP or OOC are detected and opened as PRs back to `Interested-
 | [@lbajolet-hashicorp](https://github.com/lbajolet-hashicorp) | 14 |
 | [@jescalan](https://github.com/jescalan) | 7 |
 | [@sylviamoss](https://github.com/sylviamoss) | 6 |
+| [@Interested-Deving-1896](https://github.com/Interested-Deving-1896) | 4 |
 | [@mitchellh](https://github.com/mitchellh) | 4 |
-| [@Interested-Deving-1896](https://github.com/Interested-Deving-1896) | 3 |
 | [@whywaita](https://github.com/whywaita) | 2 |
 | [@hashicorp-copywrite[bot]](https://github.com/apps/hashicorp-copywrite) | 2 |
 | [@williamb1024](https://github.com/williamb1024) | 2 |
